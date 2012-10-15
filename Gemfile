@@ -5,6 +5,7 @@ gem 'rails', '3.2.8'
 
 # Frontend
 gem 'jquery-rails'
+gem 'slim-rails'
 
 group :development, :production do
   gem 'mysql2'
