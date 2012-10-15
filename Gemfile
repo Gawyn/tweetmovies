@@ -11,8 +11,18 @@ group :development, :production do
   gem 'quiet_assets'
 end
 
+group :development, :test do
+  gem 'spinach-rails'
+  gem 'thin'
+end
+
 group :test do
   gem 'sqlite3'
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'launchy'
+  gem 'webmock'
+  gem 'database_cleaner'
 end
 
 # Assets
