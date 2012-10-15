@@ -8,4 +8,8 @@ describe Movie do
   describe :attributes do
     it { should respond_to :title }
   end
+
+  describe :associations do
+    it { should respond_to :keywords }
+  end
 end
